@@ -44,7 +44,7 @@ class CartPage {
       expect(cartItems).toContain(expectedItem);
     }
 
-    console.log('Cart verification passed');
+    console.log('Cart verification successful');
   }
 
   // Continuing to checkout flow

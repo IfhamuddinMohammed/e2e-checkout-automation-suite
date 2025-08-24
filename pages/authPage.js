@@ -23,7 +23,7 @@ class AuthPage {
     await this.usernameInput.fill(username);
     await this.passwordInput.fill(password);
     await this.loginButton.click();
-    console.log(`Logged in with the user: ${username}`);
+    console.log(`Logging in with the user: ${username}`);
   }
 }
 

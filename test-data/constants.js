@@ -1,4 +1,4 @@
-// User Data using to login
+// User Data for login
 const USERS = {
   STANDARD: {
     username: 'standard_user',

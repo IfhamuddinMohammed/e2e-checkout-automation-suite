@@ -53,7 +53,7 @@ class ProductsPage {
     await this.page.goto('/cart.html');
     await expect(this.page).toHaveURL(/cart.html/);
     await expect(this.page.locator('.cart_item, .cart_empty').first()).toBeVisible({ timeout: 5000 });
-    console.log('✓ Navigated to cart');
+    console.log('Navigated to cart page');
   }
 
   // Getting the current cart count from badge
