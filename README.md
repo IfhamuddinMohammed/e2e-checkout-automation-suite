@@ -40,7 +40,8 @@ E2E-SWAG-CHECKOUT/
 ## Setup Instructions
 
 1. Clone this repository:
-   git clone <https://github.com/IfhamuddinMohammed/e2e-checkout-automation-suite.git>
+   <https://github.com/IfhamuddinMohammed/e2e-checkout-automation-suite.git>
+
    cd <e2e-swag-checkout>
 
 2. Install dependencies:
