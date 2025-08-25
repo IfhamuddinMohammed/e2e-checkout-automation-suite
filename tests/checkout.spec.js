@@ -3,7 +3,7 @@ const { AuthPage } = require('../pages/authPage');
 const { ProductsPage } = require('../pages/productsPage');
 const { CartPage } = require('../pages/cartPage');
 const { CheckoutPage } = require('../pages/checkoutPage');
-const { OrderCompletePage } = require('../pages/OrderCompletePage');
+const { OrderCompletePage } = require('../pages/orderCompletePage');
 const testData = require('../test-data/constants');
 
 test.describe(' To Purchase 3 Random items from Swag Labs Website', () => {
