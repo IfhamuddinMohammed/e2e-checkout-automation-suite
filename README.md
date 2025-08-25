@@ -2,7 +2,7 @@
 
 ## Overview
 
-This suite automates an end-to-end user flow on the **Swag Labs** website using Playwright.
+This suite automates an end-to-end user flow on the Swag Labs website using Playwright.
 This test covers the purchase of multiple items, from login to order completion.
 
 ## Test Flows Covered
@@ -42,7 +42,7 @@ E2E-SWAG-CHECKOUT/
 1. Clone this repository:
    <https://github.com/IfhamuddinMohammed/e2e-checkout-automation-suite.git>
 
-   cd <e2e-swag-checkout>
+   cd e2e-swag-checkout
 
 2. Install dependencies:
    npm install
@@ -52,7 +52,7 @@ E2E-SWAG-CHECKOUT/
 
 4. View the HTML report:
    npx playwright show-report
----
+
 
 ## Notes
 
