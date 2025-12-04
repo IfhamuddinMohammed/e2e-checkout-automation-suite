@@ -29,11 +29,11 @@ const ENV_CONFIG = {
     baseUrl: 'https://www.saucedemo.com',
     timeout: 30000,
     headless: true
-  }
-  UAT:{
+  },
+  UAT: {
     baseUrl: 'https://uat.saucedemo.com',
     timeout: 45000,
-    headless: false   
+    headless: false
   }
 };
 
@@ -42,7 +42,7 @@ module.exports = {
   CUSTOMERS,
   TEST_CONSTANTS,
   ENV_CONFIG,
-  
+
   // For easier access
   STD_USER: USERS.STANDARD.username,
   STD_PASSWORD: USERS.STANDARD.password
