@@ -12,8 +12,20 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "This suite automates an end-to-end user flow on the Swag Labs website using Playwright.\r This test covers the purchase of multiple items, from login to order completion.",
   "devDependencies": {
     "@playwright/test": "^1.55.0"
-  }
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IfhamuddinMohammed/e2e-checkout-automation-suite.git"
+  },
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/IfhamuddinMohammed/e2e-checkout-automation-suite/issues"
+  },
+  "homepage": "https://github.com/IfhamuddinMohammed/e2e-checkout-automation-suite#readme"
 }
