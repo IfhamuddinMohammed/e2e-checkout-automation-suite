@@ -9,7 +9,7 @@ const USERS = {
 // Customer information for checkout
 const CUSTOMERS = {
   DEFAULT: {
-    firstName: 'Lean Technologies',
+    firstName: 'Softbuilders Software Design LLC',
     lastName: 'Dubai',
     postalCode: '74777'
   }
@@ -29,6 +29,11 @@ const ENV_CONFIG = {
     baseUrl: 'https://www.saucedemo.com',
     timeout: 30000,
     headless: true
+  }
+  UAT:{
+    baseUrl: 'https://uat.saucedemo.com',
+    timeout: 45000,
+    headless: false   
   }
 };
 
